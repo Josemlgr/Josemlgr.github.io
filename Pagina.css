@@ -1,6 +1,81 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
 body.Inicio{
     background-image: url(Imagenes/FondoLambo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+
+div.Cabecera{
+    background-image: url(Imagenes/Asfalto.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 106px;
+}
+
+div.Texto{
+    float: left;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+
+div.Logo{
+    float: left;
+    margin-left: 100px;
+    margin-top: 12px;
+}
+
+div.Indice{
+    float: right;
+    margin-right: 70px;
+    margin-top: 35px;
+}
+
+a.Menu{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a.Menu:hover{
+    color: rgb(245, 214, 0);
+}
+
+a.Menu::after {
+        content: "";
+        display: block;
+        height: 2px;
+        background-color: rgb(204, 177, 2);
+        transform: scale(0,1);
+        transform-origin: center;
+        transition: transform .5s;
+}
+
+a.Menu:hover::after {
+    transform: scale(1,1);
+  }
+
+hr.hr1{
+    margin: 0;
+    margin-top: -30px;
+    height: 15px;
+    background-color: rgb(245, 214, 0);
+    width: 100%;
+}
+
+hr.hr2{
+    margin: 0;
+    background-image: url(Imagenes/Asfalto.jpg);
+    background-attachment: fixed;
+    height: 10px;
+    width: 100%;
 }
