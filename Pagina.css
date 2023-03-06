@@ -10,6 +10,10 @@ body.Inicio{
     background-attachment: fixed;
 }
 
+main{
+    margin-top: 480px;
+}
+
 
 div.Cabecera{
     background-image: url(Imagenes/Asfalto.jpg);
@@ -60,6 +64,8 @@ a.Menu::after {
         transition: transform .5s;
 }
 
+a.Redes:hover {filter: opacity(.5);}
+
 a.Menu:hover::after {
     transform: scale(1,1);
   }
@@ -78,4 +84,109 @@ hr.hr2{
     background-attachment: fixed;
     height: 10px;
     width: 100%;
+}
+
+
+div.Horario{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    color: white;
+}
+
+div.Contacto{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    color: white;
+}
+
+div.Redessociales{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    color: white;
+}
+
+footer{
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-image: url(Imagenes/AsfaltoBlanco.jpg);
+    height: 220px;
+    margin: auto;
+    display: block;
+}
+
+img.Imginst{
+    width: 122px;
+    height: 70px;
+}
+
+h2.Foot{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+h3.Foot{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -10px;
+    color: rgb(49, 49, 49);
+    text-shadow: 1px 1px rgb(255, 255, 255);
+}
+
+h4.Foot{
+    margin-top: -10px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+#Img{
+    margin-top: 0px;
+}
+
+img.Imgface{
+    width: 70px;
+    height: 70px;
+}
+
+img.Imgtwit{
+    width: 80px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+footer.Inicio{
+    margin-top: 100px;
+}
+
+h1.Bienvenido{
+    text-align: center;
+    color:rgb(245, 214, 0);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2.Bienvenido2{
+    text-align: center;
+    color:rgb(245, 214, 0);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr.footer{
+    height: 7px;
+    background-image: url(Imagenes/AsfaltoBlanco.jpg);
+    background-attachment: fixed;
+    margin: 0;
+}
+hr.footer2{
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+span.IndiceActual{
+    color: rgb(245, 214, 0);
 }
