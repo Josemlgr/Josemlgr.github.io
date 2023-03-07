@@ -10,7 +10,7 @@ body.Inicio{
     background-attachment: fixed;
 }
 
-main{
+main.Inicio{
     margin-top: 480px;
 }
 
@@ -189,4 +189,30 @@ hr.footer2{
 
 span.IndiceActual{
     color: rgb(245, 214, 0);
+}
+
+div.Madrid{
+    display: inline-table;
+    margin-left: 100px;
+    text-align: center;
+}
+
+main.Localizacion{
+    background-color: rgb(255, 249, 209);
+    border: solid 1px rgb(255, 249, 209);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+div.Barcelona{
+    display: inline-table;
+    float: right;
+    margin-right: 100px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+
+div.TitConcesionarios{
+    text-align: center;
+    text-shadow: 2px 2px rgb(255, 255, 255);
 }
