@@ -17,6 +17,13 @@ body.SuperTrofeo{
     background-attachment: fixed;
 }
 
+body.Contacto{
+    background-image: url(Imagenes/Contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 main.Inicio{
     margin-top: 480px;
 }
@@ -346,6 +353,11 @@ h1.SP{
     text-shadow: 1px 1px rgb(164, 164, 164);
 }
 
+h1.Contacto{
+    text-align: center;
+    text-shadow: 1px 1px rgb(164, 164, 164);
+}
+
 p.SP1{
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -390,4 +402,49 @@ p.SP2{
     background-color: rgb(222, 219, 219);
     margin-bottom: 30px;
     padding: 5px;
+}
+
+div.Formulario{
+    background-color: rgb(228, 227, 227);
+    width: 50%;
+    border: 3px solid black;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+label.Form{
+    font-weight: bold;
+}
+
+div.Form{
+    display: flex;
+}
+
+div.Form1{
+    width: 50%;
+}
+
+div.Form2{
+    width: 50%;
+}
+
+#fname1{
+    border: 2px solid rgb(245, 214, 0);
+    border-radius: 10px;
+    padding: 7px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#fname2{
+    border: 2px solid rgb(245, 214, 0);
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-left: 7px;
+    width: 680px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="Pagina.css">
     <link rel="icon" href="Imagenes/LogoLamborghini.webp">
 </head>
-<body>
+<body class="Contacto">
     <header>
         <div class="Cabecera">
             <nav>
@@ -31,8 +31,47 @@
         <hr class="hr1">
         <hr class="hr2">
     </header>
-    <main>
-
+    <main class="Contacto">
+        <center>
+        <div class="Formulario">
+            <h1 class="Contacto">CONTACTO</h1>
+            <form>
+                <div class="Form">
+                    <div class="Form1">
+                        <label class="Form" for="Nombre">NOMBRE</label><br>
+                        <input type="text" id="fname1" name="Nombre" placeholder="Escriba su nombre" required="obligatorio">
+                    </div>
+                    <div class="Form2">
+                        <label class="Form" for="Apellidos">APELLIDOS</label><br>
+                        <input type="text" id="fname1" name="Apellidos" placeholder="Escriba sus apellidos" required="obligatorio">
+                    </div>
+                </div>
+                <div class="Form">
+                    <div class="Form1">
+                        <label class="Form" for="Ciudad">CIUDAD</label><br>
+                        <input type="text" id="fname1" name="Ciudad" placeholder="Escriba su ciudad" required="obligatorio">
+                    </div>
+                    <div class="Form2">
+                        <label class="Form" for="Telefono">TELÉFONO</label><br>
+                        <input type="tel" id="fname1" name="Telefono" placeholder="Escriba su número de teléfono" required="obligatorio" pattern="[0-9]{9}">
+                    </div>
+                </div>
+                <div class="Form">
+                    <div class="Form1">
+                        <label class="Form" for="Fecha">FECHA DE NACIMIENTO</label><br>
+                        <input type="date" id="fname1" name="Fechanac" required="obligatorio">
+                    </div>
+                    <div class="Form2">
+                        <label class="Form" for="Email">EMAIL</label><br>
+                        <input type="email" id="fname1" name="Email" placeholder="Escriba su correo electrónico" required="obligatorio">
+                    </div>
+                </div>
+                <label class="Form" for="Motivo">MOTIVO DEL CONTACTO</label><br>
+                <textarea id="fname2" name="Motivo" placeholder="Escriba su motivo de contacto" required="obligatorio"></textarea>
+                <input id="fname3" type="submit" value="Enviar">
+            </form>
+        </div>
+        </center>
     </main>
     <footer>
         <hr class="footer">
