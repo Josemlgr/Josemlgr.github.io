@@ -256,14 +256,81 @@ h1.TitNosotros{
     text-shadow: 1px 1px rgb(164, 164, 164);
 }
 
-div.Historia{
-    display: block;
+#Feruccio{
+    width: 230px;
+    height: 310px;
+    border: 3px solid black;
 }
 
-img.Feruccio{
-    float: right;
+section{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#Concesionario{
+    width: 450px;
+    height: 300px;
+    border: 3px solid black;
+}
+
+#Concesionario:hover{
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+
+#Feruccio:hover{
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+
+p.Descripcion{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 500px;
 }
 
 p.Historia{
-    float: left;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 500px;
+}
+
+article{
+    width: 50%;
+}
+
+article.Descripcion2{
+    text-align: right;
+    padding-right: 100px;
+    margin-top: 30px;
+}
+
+article.Historia2{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+article.Historia1{
+    margin-left: 260px;
+
+}
+
+h2.Nosotros{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    text-decoration: underline;
+    width: 500px;
+    text-align: center;
+}
+
+main.Nosotros{
+    background-color: rgb(255, 249, 209);
+    border: solid 1px rgb(255, 249, 209);
+}
+
+a.Lamb{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
