@@ -10,6 +10,13 @@ body.Inicio{
     background-attachment: fixed;
 }
 
+body.SuperTrofeo{
+    background-image: url(Imagenes/Supertrofeo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 main.Inicio{
     margin-top: 480px;
 }
@@ -212,7 +219,6 @@ main.Localizacion{
     background-color: rgb(255, 249, 209);
     border: solid 1px rgb(255, 249, 209);
     text-shadow: 1px 1px rgb(164, 164, 164);
-    font-size: 20px;
 }
 
 div.Barcelona{
@@ -333,4 +339,55 @@ a.Lamb{
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+h1.SP{
+    text-align: center;
+    text-shadow: 1px 1px rgb(164, 164, 164);
+}
+
+p.SP1{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 500px;
+    font-weight: bold;
+    color:rgb(245, 214, 0);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    background-color: rgb(222, 219, 219);
+    margin-left: 60%;
+    padding: 5px;
+}
+
+h2.SP1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    text-decoration: underline;
+    width: 500px;
+    text-align: center;
+    margin-left: 60%;
+}
+
+h2.SP2{
+    margin-top: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    text-decoration: underline;
+    width: 500px;
+    text-align: center;
+    margin-left: 10%;
+}
+
+p.SP2{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10%;
+    width: 500px;
+    font-weight: bold;
+    color:rgb(245, 214, 0);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    background-color: rgb(222, 219, 219);
+    margin-bottom: 30px;
+    padding: 5px;
 }
